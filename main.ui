@@ -17,33 +17,38 @@
       <x>10</x>
       <y>10</y>
       <width>780</width>
-      <height>380</height>
+      <height>300</height>
      </rect>
     </property>
     <property name="columnCount">
      <number>7</number>
     </property>
-    <column>
-     <property name="text"><string>ID</string></property>
-    </column>
-    <column>
-     <property name="text"><string>Название</string></property>
-    </column>
-    <column>
-     <property name="text"><string>Обжарка</string></property>
-    </column>
-    <column>
-     <property name="text"><string>Тип</string></property>
-    </column>
-    <column>
-     <property name="text"><string>Вкус</string></property>
-    </column>
-    <column>
-     <property name="text"><string>Цена</string></property>
-    </column>
-    <column>
-     <property name="text"><string>Объем</string></property>
-    </column>
+   </widget>
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>330</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="editButton">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>330</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Редактировать</string>
+    </property>
    </widget>
   </widget>
  </widget>

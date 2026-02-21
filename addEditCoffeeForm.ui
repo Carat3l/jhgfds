@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <widget class="QLineEdit" name="nameEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>360</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Название</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="roastEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>360</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Обжарка</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="groundEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>360</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Тип (молотый / зерна)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tasteEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>360</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Вкус</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="priceEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>360</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Цена</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="volumeEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>360</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Объём</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>260</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+  </widget>
+ </widget>
+</ui>
